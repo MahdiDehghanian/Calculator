@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(120deg,#375064,#999790 );
+  color: white;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+.main{
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10rem;
+  width: 40%;
+  height: 5rem;
+  border-radius: 5px;
+}
+.screen{
+  background: white;
+}
+.main input {
+  width: 100%;
+  padding: 0.5rem;
+  display: block;
+  border: none;
+  justify-content: center;
+  
+  
+}
+
+.backbtn button {
+  width: 100%;
+  background: rgb(82, 170, 241);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: large;
+}
+.backbtn button:hover{
+  background-color: yellowgreen;
+}
+.row1{
+  
+  width: 100%;
+  color:white;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.mycol {
+ background: #375064;
+}
+.mainOp {
+  background-color: #19ceb6;
+}
+.myborder {
+  border: 1px white solid;
+}
+.myborder:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+.px-4{
+  width: 100%;
+}
+.equ{
+  background-color: rgb(82, 170, 241);
+}
+.equ:hover{
+background-color: yellowgreen;
+}
